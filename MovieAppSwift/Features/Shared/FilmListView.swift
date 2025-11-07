@@ -21,9 +21,8 @@ struct FilmListView: View {
             
         }
         .navigationDestination(for: Film.self) { film in
-//            FilmDetailScreen(film: film,
-//                             favoritesViewModel: favoritesViewModel)
-            FilmDetailScreen()
+            FilmDetailScreen(film: film,
+                             favoritesViewModel: favoritesViewModel)
         }
     }
 }
@@ -45,7 +44,7 @@ private struct FilmRow: View {
                     .font(.subheadline)
                     .foregroundColor(.secondary)
                 
-                Text("Released: \(film.releaseYear)")
+                Text("Released: \(String(describing: film.releaseYear))")
                     .font(.caption)
                     .foregroundColor(.secondary)
                 
