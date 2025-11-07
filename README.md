@@ -3,3 +3,6 @@
 
 <h1>Favorites Screen</h1>
 <img width="405" height="796" alt="Favorites Screen" src="https://github.com/user-attachments/assets/32eb58bc-0e9e-4d61-941e-2baeb1f7e477" />
+
+<h1>Film Details Screen</h1>
+<img width="407" height="792" alt="Film Details Screen" src="https://github.com/user-attachments/assets/a9580241-ede8-4303-9895-dc0a3397d327" />
