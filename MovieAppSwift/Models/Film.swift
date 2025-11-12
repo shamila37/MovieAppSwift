@@ -13,9 +13,12 @@ struct Film: Identifiable, Decodable, Equatable, Hashable {
     let description: String
     let director: String
     let producer: String
-    let releaseYear: String?
-    let score: String?
-    let duration: String?
+//    let releaseYear: String?
+    let releaseYear: String
+//    let score: String?
+    let score: String
+//    let duration: String?
+    let duration: String
     let image: String
     let bannerImage: String
     let people: [String]
